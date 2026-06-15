@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>D.E.Sy Network Redirecting...</title>
+<meta http-equiv="refresh" content="0; url=index-en.html">
+<script>
+// Detect browser language and redirect accordingly
+var lang = navigator.language || navigator.userLanguage;
+var defaultLang = 'en';
+
+// Map language codes to our supported languages
+if (lang.startsWith('it')) {
+  defaultLang = 'it';
+} else if (lang.startsWith('fr')) {
+  defaultLang = 'fr';
+} else {
+  defaultLang = 'en';
+}
+
+// Redirect to appropriate language version
+window.location.href = 'index-' + defaultLang + '.html';
+</script>
+</head>
+<body>
+<p>Redirecting to your language version... <a href="index-en.html">English</a> | <a href="index-it.html">Italiano</a> | <a href="index-fr.html">Français</a></p>
+</body>
+</html>
