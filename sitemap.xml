@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://ppg68.github.io/DESYNET/index-en.html</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ppg68.github.io/DESYNET/index-en.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ppg68.github.io/DESYNET/index-it.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ppg68.github.io/DESYNET/index-fr.html"/>
+    <image:image>
+      <image:loc>https://ppg68.github.io/DESYNET/images/logo-desynet.png</image:loc>
+      <image:title>D.E.Sy Network logo</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ppg68.github.io/DESYNET/index-it.html</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ppg68.github.io/DESYNET/index-en.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ppg68.github.io/DESYNET/index-it.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ppg68.github.io/DESYNET/index-fr.html"/>
+    <image:image>
+      <image:loc>https://ppg68.github.io/DESYNET/images/logo-desynet.png</image:loc>
+      <image:title>Logo D.E.Sy Network</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ppg68.github.io/DESYNET/index-fr.html</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ppg68.github.io/DESYNET/index-en.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ppg68.github.io/DESYNET/index-it.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ppg68.github.io/DESYNET/index-fr.html"/>
+    <image:image>
+      <image:loc>https://ppg68.github.io/DESYNET/images/logo-desynet.png</image:loc>
+      <image:title>Logo D.E.Sy Network</image:title>
+    </image:image>
+  </url>
+</urlset>
