@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#7B4F2E">
+
+<!-- PRIMARY SEO -->
+<title>D.E.Sy Network — Project management tools for NGOs</title>
+<meta name="description" content="Free and affordable project accounting, budgeting, and management tools for NGOs, foundations, and non-profit organizations. DESy, PREPPY, Geko, RICO, AIDA, PAS—field-tested solutions.">
+<link rel="canonical" href="https://www.desynet.org/index-en.html">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="language" content="English">
+<meta name="author" content="Paolo Gioffreda">
+
+<!-- OPEN GRAPH -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="D.E.Sy Network — Project Management Tools for NGOs">
+<meta property="og:description" content="Practical tools for project accounting, budgeting, resource planning, HR management, and asset tracking. Built for NGOs, foundations, and non-profit organizations.">
+<meta property="og:url" content="https://www.desynet.org/index-en.html">
+<meta property="og:site_name" content="D.E.Sy Network">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://www.desynet.org/images/logo-desynet.png">
+
+<!-- TWITTER CARD -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="D.E.Sy Network — Project Management Tools for NGOs">
+<meta name="twitter:description" content="Practical tools for project accounting, budgeting, resource planning, HR management, and asset tracking.">
+<meta name="twitter:creator" content="@ppgioffreda">
+
+<!-- FONTS & PERFORMANCE -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="dns-prefetch" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="alternate" hreflang="it" href="https://www.desynet.org/">
+<link rel="alternate" hreflang="fr" href="https://www.desynet.org/index-fr.html">
+<link rel="alternate" hreflang="en" href="https://www.desynet.org/index-en.html">
+<link rel="alternate" hreflang="x-default" href="https://www.desynet.org/">
+
+<!-- JSON-LD SCHEMA MARKUP -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "D.E.Sy Network",
+  "url": "https://www.desynet.org/",
+  "logo": "https://www.desynet.org/images/logo-desynet.png",
+  "description": "Project management and accounting tools for NGOs and non-profit organizations",
+  "founder": {
+    "@type": "Person",
+    "name": "Paolo Gioffreda",
+    "email": "ppgioffreda@gmail.com",
+    "telephone": "+39 348 8121835"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Milan",
+    "addressCountry": "IT"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "Customer Service",
+    "email": "ppgioffreda@gmail.com",
+    "telephone": "+39 348 8121835",
+    "availableLanguage": ["en", "it", "fr"]
+  }
+}
+</script>
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',sans-serif;font-size:15px;line-height:1.6;color:#1a1a1a;background:#fff}
+a{text-decoration:none;color:inherit}
+
+/* NAV */
+.nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,0.96);backdrop-filter:blur(8px);border-bottom:1px solid #e8e0d8;padding:0 40px;display:flex;align-items:center;justify-content:space-between;height:56px}
+.nav-logo{display:flex;align-items:center;gap:9px}
+.nav-logo-img{width:28px;height:28px;border-radius:6px}
+.nav-logo-text{font-size:15px;font-weight:600;color:#1a1a1a;letter-spacing:-.01em}
+.nav-right{display:flex;gap:20px;align-items:center}
+.nav-links{display:flex;gap:28px}
+.nav-links a{font-size:13px;color:#6b5c52;transition:color .15s}
+.nav-links a:hover{color:#1a1a1a}
+.nav-links a:focus{outline:2px solid #A05C32;outline-offset:4px}
+.lang-selector{display:flex;gap:8px}
+.lang-selector a{font-size:12px;padding:4px 10px;border-radius:4px;color:#6b5c52;transition:all .15s}
+.lang-selector a.active{background:#A05C32;color:#F5EDE6;font-weight:600}
+.nav-cta{font-size:13px;font-weight:500;padding:7px 16px;background:#7B4F2E;color:#F5EDE6;border-radius:6px;transition:background .15s;border:none;cursor:pointer}
+.nav-cta:hover{background:#5C3318}
+.nav-cta:focus{outline:2px solid #A05C32;outline-offset:2px}
+
+/* HERO */
+#home{padding:88px 40px 72px;background:#FBF7F4;border-bottom:1px solid #e8e0d8}
+.hero-inner{max-width:960px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.hero-tag{display:inline-block;font-size:12px;font-weight:500;color:#5C3318;background:#F0DDD0;padding:4px 12px;border-radius:20px;margin-bottom:18px}
+.hero-h1{font-size:38px;font-weight:600;line-height:1.15;letter-spacing:-.025em;color:#1a1a1a;margin-bottom:18px}
+.hero-h1 em{font-style:normal;color:#A05C32}
+.hero-body{font-size:15px;color:#6b5c52;line-height:1.75;margin-bottom:28px}
+.hero-btns{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+.btn-warm{display:inline-flex;align-items:center;gap:7px;font-size:13px;font-weight:500;padding:10px 20px;background:#7B4F2E;color:#F5EDE6;border-radius:7px;transition:background .15s;border:none;cursor:pointer}
+.btn-warm:hover{background:#5C3318}
+.btn-warm:focus{outline:2px solid #A05C32;outline-offset:2px}
+.btn-ghost{display:inline-flex;align-items:center;gap:7px;font-size:13px;padding:10px 20px;border:1px solid #c9b8a8;color:#4a3728;border-radius:7px;background:#fff;transition:all .15s;cursor:pointer}
+.btn-ghost:hover{border-color:#7B4F2E;color:#1a1a1a}
+.btn-ghost:focus{outline:2px solid #A05C32;outline-offset:2px}
+.hero-note{font-size:12px;color:#8c7060}
+.hero-note span{color:#A05C32;font-weight:500}
+
+/* HERO VISUAL */
+.hero-visual{background:#fff;border:1px solid #e8e0d8;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(90,50,20,.06)}
+.hero-visual img{width:100%;height:auto;display:block}
+
+/* TRUSTED */
+#trusted{padding:22px 40px;border-bottom:1px solid #e8e0d8;background:#fff}
+.trusted-inner{max-width:960px;margin:0 auto;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.trusted-label{font-size:12px;color:#8c7060;margin-right:4px}
+.org{font-size:12px;color:#6b5c52;padding:4px 14px;border:1px solid #e0d4c8;border-radius:20px;background:#FBF7F4}
+
+/* SHARED SECTION */
+.section-wrap{padding:72px 40px}
+.section-wrap.cream{background:#FBF7F4;border-bottom:1px solid #e8e0d8;border-top:1px solid #e8e0d8}
+.section-wrap.white{background:#fff;border-bottom:1px solid #e8e0d8}
+.container{max-width:960px;margin:0 auto}
+.section-eyebrow{font-size:12px;font-weight:500;color:#A05C32;letter-spacing:.07em;text-transform:uppercase;margin-bottom:10px}
+.section-title{font-size:27px;font-weight:600;color:#1a1a1a;line-height:1.2;letter-spacing:-.02em;margin-bottom:10px}
+.section-sub{font-size:15px;color:#6b5c52;line-height:1.75;max-width:540px}
+
+/* TOOLS */
+.tools-stack{margin-top:44px;display:flex;flex-direction:column;gap:12px}
+.tool-card{background:#fff;border:1px solid #e8e0d8;border-radius:12px;padding:22px;transition:border-color .15s}
+.tool-card:hover{border-color:#b09880}
+.tool-card:focus-within{border-color:#A05C32}
+.tool-card.featured{display:flex;gap:20px;align-items:flex-start}
+.tool-2col{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.tool-icon{width:38px;height:38px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0}
+.ic1{background:#F0DDD0;color:#7B4F2E}
+.ic2{background:#FAF0E6;color:#854F0B}
+.ic3{background:#EEF0FA;color:#534AB7}
+.ic4{background:#EAF3EC;color:#3B6D11}
+.ic5{background:#FAECE7;color:#993C1D}
+.ic6{background:#F0DDD0;color:#7B4F2E}
+.tool-header{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+.tool-name{font-size:14px;font-weight:600;color:#1a1a1a}
+.tool-tag{display:inline-block;font-size:11px;font-weight:500;background:#F0DDD0;color:#5C3318;padding:2px 8px;border-radius:20px}
+.tool-desc{font-size:13px;color:#6b5c52;line-height:1.65}
+.tool-body{flex:1}
+
+/* HOW IT WORKS */
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border:1px solid #e8e0d8;border-radius:12px;overflow:hidden;margin-top:44px}
+.step{padding:28px 24px;background:#fff}
+.step+.step{border-left:1px solid #e8e0d8}
+.step-num{font-size:11px;font-weight:600;color:#A05C32;letter-spacing:.05em;text-transform:uppercase;margin-bottom:12px}
+.step-title{font-size:14px;font-weight:600;color:#1a1a1a;margin-bottom:8px}
+.step-desc{font-size:13px;color:#6b5c52;line-height:1.65}
+
+/* SUPPORT */
+.support-main{background:#fff;border:1px solid #e8e0d8;border-radius:12px;padding:24px;margin-top:44px}
+.support-header{display:flex;align-items:center;gap:12px;margin-bottom:16px}
+.support-divider{border:none;border-top:1px solid #f0e8e0;margin-bottom:16px}
+.support-mini-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:12px}
+.support-mini{background:#fff;border:1px solid #e8e0d8;border-radius:12px;padding:18px}
+.support-mini-header{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+.support-mini-name{font-size:13px;font-weight:600;color:#1a1a1a}
+.support-mini-desc{font-size:12px;color:#8c7060;margin-bottom:12px}
+.rlink{display:inline-flex;align-items:center;gap:5px;font-size:12px;padding:5px 11px;border:1px solid #e0d4c8;border-radius:6px;color:#4a3728;background:#FBF7F4;transition:all .15s}
+.rlink:hover{border-color:#7B4F2E;color:#1a1a1a;background:#fff}
+.rlink:focus{outline:2px solid #A05C32;outline-offset:2px}
+.rlink svg{width:13px;height:13px;flex-shrink:0;color:#A05C32}
+
+/* PRICING */
+.price-grid{margin-top:44px;display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.price-card{border:1px solid #e8e0d8;border-radius:12px;padding:32px 24px;background:#fff;position:relative;transition:border-color .15s}
+.price-card.hi{border:2px solid #A05C32;transform:scale(1.02)}
+.price-card:hover{border-color:#b09880}
+.price-badge{display:inline-block;font-size:11px;font-weight:600;padding:4px 10px;border-radius:20px;margin-bottom:16px}
+.pb-free{background:#F0DDD0;color:#5C3318}
+.pb-paid{background:#F5EDE6;color:#A05C32}
+.price-name{font-size:16px;font-weight:600;color:#1a1a1a;margin-bottom:12px}
+.price-amount{font-size:32px;font-weight:600;color:#1a1a1a;margin-bottom:8px}
+.price-amount small{font-size:14px;color:#8c7060;font-weight:400}
+.price-desc{font-size:13px;color:#6b5c52;line-height:1.65;margin-bottom:24px}
+.price-list{list-style:none;margin-bottom:24px}
+.price-list li{font-size:13px;color:#6b5c52;padding:6px 0;display:flex;align-items:center;gap:8px}
+.check{color:#A05C32;font-weight:600}
+.btn-outline{display:inline-block;font-size:13px;font-weight:500;padding:10px 20px;border:1px solid #c9b8a8;border-radius:7px;color:#4a3728;background:#fff;transition:all .15s;cursor:pointer}
+.btn-outline:hover{border-color:#7B4F2E;color:#1a1a1a;background:#FBF7F4}
+.btn-outline:focus{outline:2px solid #A05C32;outline-offset:2px}
+.btn-filled{display:inline-block;font-size:13px;font-weight:500;padding:10px 20px;background:#7B4F2E;color:#F5EDE6;border-radius:7px;transition:background .15s;border:none;cursor:pointer}
+.btn-filled:hover{background:#5C3318}
+.btn-filled:focus{outline:2px solid #A05C32;outline-offset:2px}
+
+/* CONTACT */
+.contact-box{display:grid;grid-template-columns:1fr 1fr;gap:40px;background:#fff;border:1px solid #e8e0d8;border-radius:12px;padding:32px;margin-top:44px}
+.founder-card{display:flex;align-items:center;gap:14px;margin-bottom:18px}
+.founder-photo{width:56px;height:56px;border-radius:50%;object-fit:cover;border:2px solid #e8e0d8;flex-shrink:0}
+.founder-name{font-size:14px;font-weight:600;color:#1a1a1a}
+.founder-role{font-size:12px;color:#8c7060}
+.contact-h{font-size:16px;font-weight:600;color:#1a1a1a;margin-bottom:12px}
+.contact-sub{font-size:13px;color:#6b5c52;line-height:1.75;margin-bottom:0}
+.contact-items{display:flex;flex-direction:column;gap:16px}
+.citem{display:flex;align-items:flex-start;gap:12px}
+.citem-icon{width:24px;height:24px;flex-shrink:0;color:#A05C32}
+.citem-icon svg{width:24px;height:24px}
+
+/* FOOTER */
+footer{border-top:1px solid #e8e0d8;padding:24px 40px;background:#fff;display:flex;align-items:center;justify-content:space-between;margin-top:72px}
+.footer-copy{font-size:12px;color:#8c7060}
+.footer-nav{display:flex;gap:24px}
+.footer-nav a{font-size:12px;color:#6b5c52;transition:color .15s}
+.footer-nav a:hover{color:#1a1a1a}
+.footer-nav a:focus{outline:2px solid #A05C32;outline-offset:2px}
+
+@media(max-width:768px){
+  .nav{padding:0 20px}
+  .nav-right{flex-direction:column;gap:12px}
+  .nav-links{display:none}
+  #home{padding:64px 20px 48px}
+  .hero-inner{grid-template-columns:1fr;gap:32px}
+  .hero-h1{font-size:28px}
+  .steps{grid-template-columns:1fr}
+  .step+.step{border-left:none;border-top:1px solid #e8e0d8}
+  .price-grid{grid-template-columns:1fr}
+  .price-card.hi{transform:scale(1)}
+  .contact-box{grid-template-columns:1fr;gap:24px}
+  .support-mini-grid{grid-template-columns:1fr}
+  .section-wrap{padding:48px 20px}
+  footer{flex-direction:column;gap:16px;text-align:center}
+  .footer-nav{justify-content:center}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav" role="navigation" aria-label="Main navigation">
+  <a href="#home" class="nav-logo" title="D.E.Sy Network - Home">
+    <img src="images/logo-desynet.png" alt="D.E.Sy Network logo" class="nav-logo-img">
+    <span class="nav-logo-text">D.E.Sy Network</span>
+  </a>
+  <div class="nav-right">
+    <div class="nav-links">
+      <a href="#tools" title="View our tools">Tools</a>
+      <a href="#support" title="Support and resources">Support</a>
+      <a href="#pricing" title="Pricing plans">Pricing</a>
+      <a href="#contact" title="Contact information">Contact</a>
+    </div>
+    <div class="lang-selector">
+      <a href="index-en.html" class="active" title="English">EN</a>
+      <a href="/" title="Italiano">IT</a>
+      <a href="index-fr.html" title="Français">FR</a>
+    </div>
+    <a href="#contact" class="nav-cta" title="Get in touch">Get started</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="home" aria-label="Welcome section">
+  <div class="hero-inner">
+    <article>
+      <span class="hero-tag">For non-profit organizations</span>
+      <h1 class="hero-h1">Project management tools <em>built</em> for NGOs</h1>
+      <p class="hero-body">Practical accounting, budgeting, and resource planning solutions. Designed in the field. Refined through practice. Shared to support your work.</p>
+      <div class="hero-btns">
+        <a href="#contact" class="btn-warm">Request a trial</a>
+        <a href="#tools" class="btn-ghost">See the tools</a>
+      </div>
+      <p class="hero-note"><span>6 tools</span> · Free 6-month trial · No credit card required</p>
+    </article>
+    <div class="hero-visual" aria-label="DESy Dashboard preview">
+      <img src="images/desy-screenshot.png" alt="DESy - Project Accounting Dashboard showing projects, budgets and financial tracking">
+    </div>
+  </div>
+</section>
+
+<!-- TRUSTED -->
+<section id="trusted" aria-label="Organizations we work with">
+  <div class="trusted-inner">
+    <span class="trusted-label">Trusted by organizations including:</span>
+    <div class="org">COOPI</div>
+    <div class="org">Istituto Oikos</div>
+    <div class="org">Casa Ronald McDonald Italia</div>
+    <div class="org">MLAL Onlus</div>
+  </div>
+</section>
+
+<!-- TOOLS -->
+<section id="tools" class="section-wrap cream" aria-label="Our tools">
+  <div class="container">
+    <div class="section-eyebrow">The toolkit</div>
+    <h2 class="section-title">Six focused tools for project work</h2>
+    <p class="section-sub">Each tool covers a practical area of non-profit operations. They work together or independently depending on your workflow.</p>
+
+    <div class="tools-stack">
+      <article class="tool-card featured">
+        <div class="tool-icon ic1">📊</div>
+        <div class="tool-body">
+          <div class="tool-header">
+            <span class="tool-name">DESy</span>
+            <span class="tool-tag">Project accounting</span>
+          </div>
+          <p class="tool-desc">Project accounting and financial coordination. Track project accounts, budget lines, expenses and financial coordination across activities.</p>
+        </div>
+      </article>
+
+      <article class="tool-card featured">
+        <div class="tool-icon ic2">📈</div>
+        <div class="tool-body">
+          <div class="tool-header">
+            <span class="tool-name">PREPPY</span>
+            <span class="tool-tag">Budget forecasting</span>
+          </div>
+          <p class="tool-desc">Dynamic budget forecasting and expenditure planning. Anticipate future spending, compare forecasts with budgets and identify risks.</p>
+        </div>
+      </article>
+
+      <div class="tool-2col">
+        <article class="tool-card">
+          <div class="tool-header">
+            <div class="tool-icon ic3">📉</div>
+            <div>
+              <span class="tool-name">Geko</span>
+              <span class="tool-tag">Cost allocation</span>
+            </div>
+          </div>
+          <p class="tool-desc">Sustainability analysis and cost allocation. Support allocation of shared costs across projects and understand financial sustainability.</p>
+        </article>
+
+        <article class="tool-card">
+          <div class="tool-header">
+            <div class="tool-icon ic4">👥</div>
+            <div>
+              <span class="tool-name">RICO</span>
+              <span class="tool-tag">HR management</span>
+            </div>
+          </div>
+          <p class="tool-desc">Human resources, contracts and attendance. Keep staff information, contractual details and records organized.</p>
+        </article>
+      </div>
+
+      <div class="tool-2col">
+        <article class="tool-card">
+          <div class="tool-header">
+            <div class="tool-icon ic5">📦</div>
+            <div>
+              <span class="tool-name">AIDA</span>
+              <span class="tool-tag">Asset tracking</span>
+            </div>
+          </div>
+          <p class="tool-desc">Asset Inventory & Depreciation Application. Track equipment, assets and inventory for project accountability and internal control.</p>
+        </article>
+
+        <article class="tool-card">
+          <div class="tool-header">
+            <div class="tool-icon ic6">📋</div>
+            <div>
+              <span class="tool-name">PAS</span>
+              <span class="tool-tag">Procurement monitoring</span>
+            </div>
+          </div>
+          <p class="tool-desc">Procurement monitoring and procedural compliance. Keep procurement steps, documentation and procedural requirements visible and traceable.</p>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="section-wrap white" aria-label="How it works">
+  <div class="container">
+    <div class="section-eyebrow">The process</div>
+    <h2 class="section-title">Simple, practical steps</h2>
+    <p class="section-sub">Getting started takes a conversation, not complicated setup. We discuss your organization, projects, and which tools can help.</p>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">Step 1</div>
+        <h3 class="step-title">Tell me about your work</h3>
+        <p class="step-desc">Write or call. Describe your organization, projects, and what's difficult right now.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">Step 2</div>
+        <h3 class="step-title">Choose your tools</h3>
+        <p class="step-desc">We discuss which tools fit your workflow. You get a 6-month trial to try everything.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">Step 3</div>
+        <h3 class="step-title">Get direct support</h3>
+        <p class="step-desc">Paolo helps you set up and configure. Training and support tailored to your needs.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SUPPORT -->
+<section id="support" class="section-wrap cream" aria-label="Support and resources">
+  <div class="container">
+    <div class="section-eyebrow">Support</div>
+    <h2 class="section-title">Help when you need it</h2>
+    <p class="section-sub">Documentation, tutorials, and direct access to Paolo for questions and customization.</p>
+
+    <div class="support-main">
+      <div class="support-header">
+        <span style="font-size:18px">📚</span>
+        <h3 style="font-size:16px;color:#1a1a1a;margin:0">Resources</h3>
+      </div>
+      <hr class="support-divider">
+
+      <div class="support-mini-grid">
+        <div class="support-mini">
+          <div class="support-mini-header">
+            <div class="tool-icon ic1" style="width:28px;height:28px;font-size:14px">📊</div>
+            <span class="support-mini-name">DESy</span>
+          </div>
+          <p class="support-mini-desc">Project accounting and financial coordination dashboard.</p>
+          <div style="display:flex;flex-direction:column;gap:6px">
+            <a href="https://drive.google.com/file/d/1gPnbheDD9WpSnoj-Yx2TrXrgrzefMh9k/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="rlink" title="Open DESy manual - English">📄 Manual (EN)</a>
+            <a href="https://youtu.be/fUmph8IRCtU" target="_blank" rel="noopener noreferrer" class="rlink" title="Watch DESy tutorial">▶ Tutorial</a>
+          </div>
+        </div>
+
+        <div class="support-mini">
+          <div class="support-mini-header">
+            <div class="tool-icon ic2" style="width:28px;height:28px;font-size:14px">📈</div>
+            <span class="support-mini-name">PREPPY</span>
+          </div>
+          <p class="support-mini-desc">Dynamic budget forecasting and expenditure planning.</p>
+          <div style="display:flex;flex-direction:column;gap:6px">
+            <a href="https://drive.google.com/open?id=1XT0PVqDt9542S1aa6jDxSmjbLw5zK3SV" target="_blank" rel="noopener noreferrer" class="rlink" title="Open PREPPY manual - English">📄 Manual (EN)</a>
+            <a href="https://youtu.be/vakNLIhX5nc" target="_blank" rel="noopener noreferrer" class="rlink" title="Watch PREPPY tutorial">▶ Tutorial</a>
+          </div>
+        </div>
+
+        <div class="support-mini">
+          <div class="support-mini-header">
+            <div class="tool-icon ic3" style="width:28px;height:28px;font-size:14px">📉</div>
+            <span class="support-mini-name">Geko</span>
+          </div>
+          <p class="support-mini-desc">Sustainability analysis and cost allocation.</p>
+          <div style="display:flex;flex-direction:column;gap:6px">
+            <a href="https://drive.google.com/open?id=11P2-gdxC1gYUgK2jx5D4nmYGMhkjvXGh" target="_blank" rel="noopener noreferrer" class="rlink" title="Open Geko manual - English">📄 Manual (EN)</a>
+            <a href="https://youtu.be/aBREry6Eq8I" target="_blank" rel="noopener noreferrer" class="rlink" title="Watch Geko tutorial">▶ Tutorial</a>
+          </div>
+        </div>
+
+        <div class="support-mini">
+          <div class="support-mini-header">
+            <div class="tool-icon ic4" style="width:28px;height:28px;font-size:14px">👥</div>
+            <span class="support-mini-name">RICO</span>
+          </div>
+          <p class="support-mini-desc">Human resources, contracts and attendance management.</p>
+          <a href="mailto:ppgioffreda@gmail.com?subject=RICO%20manual%20request" class="rlink" title="Request RICO file via email">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="13" height="13"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            Request file
+          </a>
+        </div>
+
+        <div class="support-mini">
+          <div class="support-mini-header">
+            <div class="tool-icon ic5" style="width:28px;height:28px;font-size:14px">📦</div>
+            <span class="support-mini-name">AIDA</span>
+          </div>
+          <p class="support-mini-desc">Asset Inventory & Depreciation Application.</p>
+          <a href="https://www.youtube.com/watch?v=xxfLW3ii8mk" target="_blank" rel="noopener noreferrer" class="rlink" title="Watch AIDA tutorial">▶ Tutorial</a>
+        </div>
+
+        <div class="support-mini">
+          <div class="support-mini-header">
+            <div class="tool-icon ic6" style="width:28px;height:28px;font-size:14px">📋</div>
+            <span class="support-mini-name">PAS</span>
+          </div>
+          <p class="support-mini-desc">Procurement monitoring and procedural compliance.</p>
+          <a href="mailto:ppgioffreda@gmail.com?subject=PAS%20manual%20request" class="rlink" title="Request PAS file via email">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="13" height="13"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            Request file
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing" class="section-wrap white" aria-label="Pricing plans">
+  <div class="container">
+    <div class="section-eyebrow">Pricing</div>
+    <h2 class="section-title">Simple, transparent pricing</h2>
+    <p class="section-sub">Start with a full 6-month trial. No credit card, no commitment. Renew annually if D.E.Sy works for your organisation.</p>
+    <div class="price-grid">
+      <article class="price-card">
+        <span class="price-badge pb-free">Free trial</span>
+        <div class="price-name">Try D.E.Sy</div>
+        <div class="price-amount">€0 <small>/ 6 months</small></div>
+        <p class="price-desc">Full access to every feature from day one. No hidden limits, no credit card.</p>
+        <ul class="price-list">
+          <li><span class="check">✓</span>All features included</li>
+          <li><span class="check">✓</span>Unlimited projects</li>
+          <li><span class="check">✓</span>Excel import & export</li>
+          <li><span class="check">✓</span>Email support</li>
+        </ul>
+        <a href="mailto:ppgioffreda@gmail.com?subject=D.E.Sy%20trial%20request" class="btn-outline">Request trial</a>
+      </article>
+      <article class="price-card hi">
+        <span class="price-badge pb-paid">Annual licence</span>
+        <div class="price-name">Continue using D.E.Sy</div>
+        <div class="price-amount">€500 <small>/ year</small></div>
+        <p class="price-desc">One licence for your entire organisation. All updates and new feature releases included.</p>
+        <ul class="price-list">
+          <li><span class="check">✓</span>Everything in the trial</li>
+          <li><span class="check">✓</span>Annual licence & updates</li>
+          <li><span class="check">✓</span>Priority support</li>
+          <li><span class="check">✓</span>New feature releases</li>
+        </ul>
+        <a href="mailto:ppgioffreda@gmail.com?subject=D.E.Sy%20licence%20request" class="btn-filled">Get the licence</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section-wrap cream" aria-label="Contact information">
+  <div class="container">
+    <div class="section-eyebrow">Contact</div>
+    <h2 class="section-title">Talk to the developer directly</h2>
+    <p class="section-sub">D.E.Sy Network is built and maintained by Paolo Gioffreda. No support queues, no call centres.</p>
+    <div class="contact-box">
+      <div>
+        <div class="founder-card">
+          <img src="images/paolo-gioffreda.jpg" alt="Paolo Gioffreda, founder of D.E.Sy Network" class="founder-photo">
+          <div>
+            <div class="founder-name">Paolo Gioffreda</div>
+            <div class="founder-role">Founder and developer of D.E.Sy Network</div>
+          </div>
+        </div>
+        <h3 class="contact-h">Questions? Need a custom setup?</h3>
+        <p class="contact-sub">Write or call Paolo directly. He built every tool in the D.E.Sy suite and can help you get started, configure your projects, or adapt a tool to your organisation's needs.</p>
+      </div>
+      <div class="contact-items">
+        <div class="citem">
+          <div class="citem-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </div>
+          <a href="mailto:ppgioffreda@gmail.com" title="Send an email to Paolo">ppgioffreda@gmail.com</a>
+        </div>
+        <div class="citem">
+          <div class="citem-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 11.9 19.79 19.79 0 0 1 1.61 3.27 2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.6a16 16 0 0 0 6.29 6.29l1.26-1.26a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          </div>
+          <span>+39 348 812 1835</span>
+        </div>
+        <div class="citem">
+          <div class="citem-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32"/></svg>
+          </div>
+          <span>Skype: pgioffreda</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer role="contentinfo">
+  <span class="footer-copy">© 2025 Paolo Gioffreda · D.E.Sy Network</span>
+  <nav class="footer-nav" aria-label="Footer navigation">
+    <a href="#tools" title="Back to tools">Tools</a>
+    <a href="#support" title="Back to support">Support</a>
+    <a href="#pricing" title="Back to pricing">Pricing</a>
+    <a href="#contact" title="Back to contact">Contact</a>
+  </nav>
+</footer>
+
+</body>
+</html>

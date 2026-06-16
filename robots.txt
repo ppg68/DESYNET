@@ -1,0 +1,5 @@
+# DESYNET - robots.txt
+User-agent: *
+Allow: /
+
+Sitemap: https://www.desynet.org/sitemap.xml
