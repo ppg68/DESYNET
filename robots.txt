@@ -1,5 +1,0 @@
-# DESYNET - robots.txt
-User-agent: *
-Allow: /
-
-Sitemap: https://ppg68.github.io/DESYNET/sitemap.xml
