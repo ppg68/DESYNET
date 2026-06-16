@@ -111,6 +111,8 @@ a{text-decoration:none;color:inherit}
 /* HERO VISUAL */
 .hero-visual{background:#fff;border:1px solid #e8e0d8;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(90,50,20,.06)}
 .hero-visual img{width:100%;height:auto;display:block}
+.hero-visual-fallback{display:none;flex-direction:column;align-items:center;justify-content:center;gap:10px;min-height:320px;background:#FBF7F4;color:#8c7060;font-size:13px;text-align:center;padding:24px}
+.hero-visual-fallback span{font-size:32px}
 
 /* TRUSTED */
 #trusted{padding:22px 40px;border-bottom:1px solid #e8e0d8;background:#fff}
@@ -269,7 +271,11 @@ footer{border-top:1px solid #e8e0d8;padding:24px 40px;background:#fff;display:fl
       <p class="hero-note"><span>6 outils</span> · Essai gratuit de 6 mois · Aucune carte bancaire requise</p>
     </article>
     <div class="hero-visual" aria-label="Aperçu du tableau de bord DESy">
-      <img src="images/desy-screenshot.png" alt="DESy - Tableau de bord de comptabilité de projet montrant les projets, budgets et le suivi financier">
+      <img src="images/desy-screenshot.png" alt="DESy - Tableau de bord de comptabilité de projet montrant les projets, budgets et le suivi financier" onerror="this.onerror=null;this.style.display='none';this.nextElementSibling.style.display='flex';">
+      <div class="hero-visual-fallback">
+        <span>📊</span>
+        <p>Aperçu du tableau de bord à venir</p>
+      </div>
     </div>
   </div>
 </section>
