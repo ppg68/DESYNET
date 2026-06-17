@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>COOPI resources — D.E.Sy Network</title>
+<meta name="description" content="D.E.Sy resources specifically for COOPI: chart of accounts, coordination instructions, example files.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Inter',sans-serif;font-size:15px;line-height:1.6;color:#1a1a1a;background:#fff}
+a{text-decoration:none;color:inherit}
+.nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,0.96);backdrop-filter:blur(8px);border-bottom:1px solid #e8e0d8;padding:0 40px;display:flex;align-items:center;justify-content:space-between;height:56px}
+.nav-logo{display:flex;align-items:center;gap:9px}
+.nav-logo-mark{width:28px;height:28px;background:#7B4F2E;border-radius:6px;display:flex;align-items:center;justify-content:center;color:#F5EDE6;font-size:11px;font-weight:600}
+.nav-logo-text{font-size:15px;font-weight:600;color:#1a1a1a;letter-spacing:-.01em}
+.nav-links{display:flex;gap:28px}
+.nav-links a{font-size:13px;color:#6b5c52;transition:color .15s}
+.nav-links a:hover{color:#1a1a1a}
+.nav-cta{font-size:13px;font-weight:500;padding:7px 16px;background:#7B4F2E;color:#F5EDE6;border-radius:6px}
+
+.page-hero{padding:48px 40px 40px;background:#FBF7F4;border-bottom:1px solid #e8e0d8}
+.page-hero-inner{max-width:960px;margin:0 auto}
+.breadcrumb{font-size:12px;color:#8c7060;margin-bottom:12px}
+.breadcrumb a{color:#A05C32}
+.page-title{font-size:28px;font-weight:600;color:#1a1a1a;letter-spacing:-.02em;margin-bottom:8px}
+.page-sub{font-size:14px;color:#6b5c52;line-height:1.7}
+
+.content{padding:48px 40px;max-width:960px;margin:0 auto;display:flex;flex-direction:column;gap:24px}
+
+.card{background:#fff;border:1px solid #e8e0d8;border-radius:12px;padding:24px}
+.card-title{font-size:15px;font-weight:600;color:#1a1a1a;margin-bottom:4px}
+.card-sub{font-size:13px;color:#8c7060;margin-bottom:16px}
+.card-divider{border:none;border-top:1px solid #f0e8e0;margin:16px 0}
+.res-label{font-size:11px;font-weight:600;color:#8c7060;text-transform:uppercase;letter-spacing:.05em;margin-bottom:8px}
+.res-links{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+.res-links:last-child{margin-bottom:0}
+.rlink{display:inline-flex;align-items:center;gap:5px;font-size:12px;padding:5px 11px;border:1px solid #e0d4c8;border-radius:6px;color:#4a3728;background:#FBF7F4;transition:all .15s}
+.rlink:hover{border-color:#7B4F2E;color:#1a1a1a;background:#fff}
+.rlink svg{width:13px;height:13px;flex-shrink:0;color:#A05C32}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+
+footer{border-top:1px solid #e8e0d8;padding:20px 40px;display:flex;justify-content:space-between;align-items:center;background:#fff;margin-top:40px}
+.footer-copy{font-size:12px;color:#8c7060}
+.footer-nav{display:flex;gap:20px}
+.footer-nav a{font-size:12px;color:#8c7060}
+
+@media(max-width:720px){
+  .nav{padding:0 20px}.nav-links{display:none}
+  .page-hero,.content{padding:40px 20px}
+  .two-col{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <a href="index.html" class="nav-logo">
+    <div class="nav-logo-mark">DE</div>
+    <span class="nav-logo-text">D.E.Sy Network</span>
+  </a>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="index.html#tools">Tools</a>
+    <a href="index.html#support">Support</a>
+    <a href="index.html#pricing">Pricing</a>
+    <a href="index.html#contact">Contact</a>
+  </div>
+  <a href="mailto:ppgioffreda@gmail.com" class="nav-cta">Get started free</a>
+</nav>
+
+<div class="page-hero">
+  <div class="page-hero-inner">
+    <div class="breadcrumb"><a href="index.html">Home</a> → COOPI resources</div>
+    <h1 class="page-title">COOPI — D.E.Sy resources</h1>
+    <p class="page-sub">Files, chart of accounts, instructions and example files specifically prepared for COOPI's use of D.E.Sy.</p>
+  </div>
+</div>
+
+<div class="content">
+
+  <!-- Download & logo -->
+  <div class="card">
+    <div class="card-title">D.E.Sy file & logo</div>
+    <div class="card-sub">Request the latest version by email, or download the runtime package if FileMaker is not installed. Download the COOPI logo file and place it in the same folder as the D.E.Sy file.</div>
+    <div class="res-links">
+      <a href="mailto:ppgioffreda@gmail.com" class="rlink">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        Request latest D.E.Sy version
+      </a>
+      <a href="https://drive.google.com/open?id=1aElI9hPQ3qZk5eDI2HNCwnSRR4chAgrt" target="_blank" class="rlink">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        Runtime FileMaker 11
+      </a>
+      <a href="https://drive.google.com/file/d/1WMm7lKAwgTzvBBzilFTQ8T5PAfDOP3AT/view?usp=sharing" target="_blank" class="rlink">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        COOPI logo file
+      </a>
+    </div>
+  </div>
+
+  <!-- Chart of accounts -->
+  <div class="card">
+    <div class="card-title">Chart of accounts</div>
+    <div class="card-sub">Standard D.E.Sy chart of accounts for COOPI coordination and regional offices, plus project-level chart of accounts in Spanish and French.</div>
+    <hr class="card-divider">
+    <div class="res-label">Coordination & regional offices</div>
+    <div class="res-links">
+      <a href="https://docs.google.com/spreadsheets/d/1MREW4aJTbfuIuELLgOFfaDTF9uHdrSor/edit?usp=sharing" target="_blank" class="rlink">📊 Chart of accounts — Coordination office</a>
+      <a href="https://docs.google.com/spreadsheets/d/1MXPiG2L0TNM9PvNcbGKkFmTvFTzBQzNT/edit?usp=share_link" target="_blank" class="rlink">📊 Chart of accounts — Regional office</a>
+    </div>
+    <div class="res-label">Project level</div>
+    <div class="res-links">
+      <a href="https://docs.google.com/spreadsheets/d/14aiEr0L8iI084V-LMbAE3FvK1wsLPXVU/edit?usp=sharing" target="_blank" class="rlink">📊 Plan de cuentas estándar (ES)</a>
+      <a href="https://docs.google.com/spreadsheets/d/14aiEr0L8iI084V-LMbAE3FvK1wsLPXVU/edit?usp=sharing" target="_blank" class="rlink">📊 Plan comptable standard (FR)</a>
+    </div>
+  </div>
+
+  <!-- Instructions & examples -->
+  <div class="two-col">
+    <div class="card">
+      <div class="card-title">Coordination instructions</div>
+      <div class="card-sub">Setup and usage instructions for D.E.Sy coordination office configuration.</div>
+      <hr class="card-divider">
+      <div class="res-links">
+        <a href="https://drive.google.com/open?id=1ptzALMriECfKOWfF5MFYG839C6IkCIsL" target="_blank" class="rlink">📄 English</a>
+        <a href="https://drive.google.com/open?id=1TngD9Eix3KQy5HFTf5OKlQb9g3zSeqYk" target="_blank" class="rlink">📄 Français</a>
+        <a href="https://drive.google.com/open?id=1u0N-KRswrhpTQynT2XC4Knm9JgaLjd1n" target="_blank" class="rlink">📄 Español</a>
+        <a href="https://drive.google.com/open?id=1MNtagjAJ-NBsH_T5QpvUsc9HLVbJjL2N" target="_blank" class="rlink">📄 Italiano</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-title">Coordination example files</div>
+      <div class="card-sub">Example D.E.Sy files pre-configured for COOPI coordination structure.</div>
+      <hr class="card-divider">
+      <div class="res-links">
+        <a href="https://drive.google.com/open?id=1XurGT_e6nVK0iet3bfpD88ZQXHJw1OXZ" target="_blank" class="rlink">📁 English</a>
+        <a href="https://drive.google.com/open?id=1f3bs5QI1TDOTPb9fuE9kZ7AE9G3qMAmB" target="_blank" class="rlink">📁 Français</a>
+        <a href="https://drive.google.com/open?id=1zeTpVSkchHZ4ROA5j5OemiWycJx4pQVW" target="_blank" class="rlink">📁 Español</a>
+        <a href="https://drive.google.com/open?id=1Z_sCRoRFf1cyVKomfmPQIYC0h09cezX9" target="_blank" class="rlink">📁 Italiano</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Manuals & tutorials -->
+  <div class="card">
+    <div class="card-title">Manuals & video tutorials</div>
+    <div class="card-sub">Full manuals and video tutorials are available on the main Support page.</div>
+    <div class="res-links" style="margin-top:12px">
+      <a href="index.html#support" class="rlink">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="13" height="13"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+        Go to Support page
+      </a>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <span class="footer-copy">© 2025 Paolo Gioffreda · D.E.Sy Network</span>
+  <div class="footer-nav">
+    <a href="index.html#tools">Tools</a>
+    <a href="index.html#support">Support</a>
+    <a href="index.html#pricing">Pricing</a>
+    <a href="index.html#contact">Contact</a>
+  </div>
+</footer>
+
+</body>
+</html>

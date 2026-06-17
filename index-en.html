@@ -110,15 +110,37 @@ a{text-decoration:none;color:inherit}
 
 /* HERO VISUAL */
 .hero-visual{background:#fff;border:1px solid #e8e0d8;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(90,50,20,.06)}
-.hero-visual img{width:100%;height:auto;display:block}
-.hero-visual-fallback{display:none;flex-direction:column;align-items:center;justify-content:center;gap:10px;min-height:320px;background:#FBF7F4;color:#8c7060;font-size:13px;text-align:center;padding:24px}
-.hero-visual-fallback span{font-size:32px}
+.mockup-bar{display:flex;align-items:center;justify-content:space-between;gap:6px;padding:10px 14px;border-bottom:1px solid #e8e0d8;background:#FBF7F4}
+.mockup-bar-left{display:flex;align-items:center;gap:6px}
+.mockup-bar .dot{width:8px;height:8px;border-radius:50%;display:inline-block}
+.mockup-bar .d1{background:#e0a07c}
+.mockup-bar .d2{background:#e8c9a8}
+.mockup-bar .d3{background:#d9c2a8}
+.mockup-title{font-size:11px;color:#7B4F2E;font-weight:600;margin-left:6px}
+.mockup-badge{font-size:9px;font-weight:600;color:#8c7060;background:#fff;border:1px solid #e0d4c8;padding:3px 8px;border-radius:20px;white-space:nowrap}
+.mockup-cards{display:grid;grid-template-columns:1fr 1fr 1fr;gap:1px;background:#e8e0d8}
+.mockup-card{background:#fff;padding:12px 10px}
+.mc-label{font-size:10px;color:#8c7060;margin-bottom:3px}
+.mc-value{font-size:15px;font-weight:600;color:#1a1a1a}
+.mc-sub{font-size:9px;color:#8c7060;margin-top:2px}
+.mockup-card.good .mc-value{color:#3B6D11}
+.mockup-table{width:100%;border-collapse:collapse;font-size:10.5px}
+.mockup-table th{text-align:right;font-size:9px;font-weight:600;color:#8c7060;text-transform:uppercase;letter-spacing:.03em;padding:7px 8px;border-bottom:1px solid #f0e8e0;background:#FBF7F4;white-space:nowrap}
+.mockup-table th:first-child{text-align:left}
+.mockup-table td{padding:7px 8px;border-bottom:1px solid #f5efe9;color:#4a3728;text-align:right;white-space:nowrap}
+.mockup-table td:first-child{text-align:left;white-space:normal}
+.mockup-table tr.alert-row{background:#FBEFEF}
+.mockup-table td.good{color:#3B6D11;font-weight:600}
+.mockup-table td.over{color:#A05C32;font-weight:600}
+.mockup-table td.alert{color:#C0392B;font-weight:700}
 
 /* TRUSTED */
 #trusted{padding:22px 40px;border-bottom:1px solid #e8e0d8;background:#fff}
 .trusted-inner{max-width:960px;margin:0 auto;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
 .trusted-label{font-size:12px;color:#8c7060;margin-right:4px}
 .org{font-size:12px;color:#6b5c52;padding:4px 14px;border:1px solid #e0d4c8;border-radius:20px;background:#FBF7F4}
+.org-link{transition:all .15s}
+.org-link:hover{border-color:#A05C32;color:#A05C32;background:#fff}
 
 /* SHARED SECTION */
 .section-wrap{padding:72px 40px}
@@ -270,12 +292,31 @@ footer{border-top:1px solid #e8e0d8;padding:24px 40px;background:#fff;display:fl
       </div>
       <p class="hero-note"><span>6 tools</span> · Free 6-month trial · No credit card required</p>
     </article>
-    <div class="hero-visual" aria-label="DESy Dashboard preview">
-      <img src="images/desy-screenshot.png" alt="DESy - Project Accounting Dashboard showing projects, budgets and financial tracking" onerror="this.onerror=null;this.style.display='none';this.nextElementSibling.style.display='flex';">
-      <div class="hero-visual-fallback">
-        <span>📊</span>
-        <p>Dashboard preview coming soon</p>
+    <div class="hero-visual" aria-label="PREPPY preview — project budget forecast">
+      <div class="mockup-bar">
+        <div class="mockup-bar-left">
+          <span class="dot d1"></span><span class="dot d2"></span><span class="dot d3"></span>
+          <span class="mockup-title">PREPPY — Mozambique Livelihoods Programme</span>
+        </div>
+        <span class="mockup-badge">Threshold ±10%</span>
       </div>
+      <div class="mockup-cards">
+        <div class="mockup-card"><div class="mc-label">Total Budget</div><div class="mc-value">€880.0k</div></div>
+        <div class="mockup-card"><div class="mc-label">End-of-Period Total</div><div class="mc-value">€860.5k</div></div>
+        <div class="mockup-card good"><div class="mc-label">Delta</div><div class="mc-value">-€19.5k</div><div class="mc-sub">97.8% of budget</div></div>
+      </div>
+      <table class="mockup-table">
+        <thead>
+          <tr><th>Heading</th><th>Total</th><th>Budget</th><th>Delta</th><th>Delta %</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Human Resources</td><td>€460.0k</td><td>€480.0k</td><td class="good">-€20.0k</td><td class="good">95.8%</td></tr>
+          <tr class="alert-row"><td>Travel</td><td>€47.5k</td><td>€38.0k</td><td class="alert">+€9.5k</td><td class="alert">⚠ 125.0%</td></tr>
+          <tr><td>Equipment</td><td>€84.0k</td><td>€90.0k</td><td class="good">-€6.0k</td><td class="good">93.3%</td></tr>
+          <tr class="alert-row"><td>Local Office</td><td>€152.1k</td><td>€130.0k</td><td class="alert">+€22.1k</td><td class="alert">⚠ 117.0%</td></tr>
+          <tr><td>Other Costs &amp; Services</td><td>€116.9k</td><td>€142.0k</td><td class="good">-€25.1k</td><td class="good">82.3%</td></tr>
+        </tbody>
+      </table>
     </div>
   </div>
 </section>
@@ -284,10 +325,14 @@ footer{border-top:1px solid #e8e0d8;padding:24px 40px;background:#fff;display:fl
 <section id="trusted" aria-label="Organizations we work with">
   <div class="trusted-inner">
     <span class="trusted-label">Trusted by organizations including:</span>
-    <div class="org">COOPI</div>
+    <a href="coopi.html" class="org org-link" title="D.E.Sy resources for COOPI">COOPI ↗</a>
     <div class="org">Istituto Oikos</div>
-    <div class="org">Casa Ronald McDonald Italia</div>
-    <div class="org">MLAL Onlus</div>
+    <div class="org">MLAL</div>
+    <div class="org">Armadilla</div>
+    <div class="org">AES-CCC</div>
+    <div class="org">ENGIM</div>
+    <div class="org">Pro Terra Sancta</div>
+    <div class="org">CAST</div>
   </div>
 </section>
 
