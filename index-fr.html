@@ -166,7 +166,8 @@ a{text-decoration:none;color:inherit}
 .ic5{background:#FAECE7;color:#993C1D}
 .ic6{background:#F0DDD0;color:#7B4F2E}
 .tool-header{display:flex;align-items:center;gap:10px;margin-bottom:8px}
-.tool-name{font-size:14px;font-weight:600;color:#1a1a1a}
+.tool-card.featured .tool-header{flex-direction:column;align-items:flex-start;gap:5px}
+.tool-name{font-size:14px;font-weight:600;color:#1a1a1a;display:block;margin-bottom:3px;line-height:1.35}
 .tool-tag{display:inline-block;font-size:11px;font-weight:500;background:#F0DDD0;color:#5C3318;padding:2px 8px;border-radius:20px}
 .tool-desc{font-size:13px;color:#6b5c52;line-height:1.65}
 .tool-body{flex:1}
@@ -341,18 +342,18 @@ footer{border-top:1px solid #e8e0d8;padding:24px 40px;background:#fff;display:fl
 <section id="tools" class="section-wrap cream" aria-label="Nos outils">
   <div class="container">
     <div class="section-eyebrow">La boîte à outils</div>
-    <h2 class="section-title">Six outils ciblés pour la gestion de projet</h2>
-    <p class="section-sub">Chaque outil couvre un domaine pratique des opérations à but non lucratif. Ils fonctionnent ensemble ou indépendamment selon votre flux de travail.</p>
+    <h2 class="section-title">Les principaux défis de gestion des ONG</h2>
+    <p class="section-sub">Chaque application D.E.Sy a été conçue pour répondre à un besoin opérationnel spécifique des organisations à but non lucratif.</p>
 
     <div class="tools-stack">
       <article class="tool-card featured">
         <div class="tool-icon ic1">📊</div>
         <div class="tool-body">
           <div class="tool-header">
-            <span class="tool-name">DESy</span>
-            <span class="tool-tag">Comptabilité de projet</span>
+            <span class="tool-name">Comptabilité de projet et contrôle financier</span>
+            <span class="tool-tag">Solution : DESy</span>
           </div>
-          <p class="tool-desc">Comptabilité de projet et coordination financière. Suivez les comptes de projet, les lignes budgétaires, les dépenses et la coordination financière entre les activités.</p>
+          <p class="tool-desc">Un outil de comptabilité de projet ONG pour suivre les dépenses, les budgets et les financements, avec un suivi des bailleurs et une gestion financière des projets sur plusieurs financements.</p>
         </div>
       </article>
 
@@ -360,10 +361,10 @@ footer{border-top:1px solid #e8e0d8;padding:24px 40px;background:#fff;display:fl
         <div class="tool-icon ic2">📈</div>
         <div class="tool-body">
           <div class="tool-header">
-            <span class="tool-name">PREPPY</span>
-            <span class="tool-tag">Prévision budgétaire</span>
+            <span class="tool-name">Prévision budgétaire et suivi des dépenses</span>
+            <span class="tool-tag">Solution : PREPPY</span>
           </div>
-          <p class="tool-desc">Prévision budgétaire dynamique et planification des dépenses. Anticipez les dépenses futures, comparez les prévisions aux budgets et identifiez les risques.</p>
+          <p class="tool-desc">Un outil de suivi budgétaire pour identifier à l'avance les risques de surconsommation ou de sous-consommation du budget.</p>
         </div>
       </article>
 
@@ -372,22 +373,22 @@ footer{border-top:1px solid #e8e0d8;padding:24px 40px;background:#fff;display:fl
           <div class="tool-header">
             <div class="tool-icon ic3">📉</div>
             <div>
-              <span class="tool-name">Geko</span>
-              <span class="tool-tag">Répartition des coûts</span>
+              <span class="tool-name">Répartition des coûts partagés et analyse de durabilité</span>
+              <span class="tool-tag">Solution : GEKO</span>
             </div>
           </div>
-          <p class="tool-desc">Analyse de la durabilité et répartition des coûts. Facilite la répartition des coûts partagés entre projets et la compréhension de la durabilité financière.</p>
+          <p class="tool-desc">Répartit correctement les coûts indirects entre les projets et évalue la viabilité financière des activités.</p>
         </article>
 
         <article class="tool-card">
           <div class="tool-header">
             <div class="tool-icon ic4">👥</div>
             <div>
-              <span class="tool-name">RICO</span>
-              <span class="tool-tag">Gestion RH</span>
+              <span class="tool-name">Gestion des ressources humaines et des contrats</span>
+              <span class="tool-tag">Solution : RICO</span>
             </div>
           </div>
-          <p class="tool-desc">Ressources humaines, contrats et présences. Gardez les informations du personnel, les détails contractuels et les registres organisés.</p>
+          <p class="tool-desc">Gère les informations RH, les contrats, les présences et la documentation du personnel en un seul endroit.</p>
         </article>
       </div>
 
@@ -396,22 +397,22 @@ footer{border-top:1px solid #e8e0d8;padding:24px 40px;background:#fff;display:fl
           <div class="tool-header">
             <div class="tool-icon ic5">📦</div>
             <div>
-              <span class="tool-name">AIDA</span>
-              <span class="tool-tag">Suivi des actifs</span>
+              <span class="tool-name">Gestion des immobilisations et inventaire</span>
+              <span class="tool-tag">Solution : AIDA</span>
             </div>
           </div>
-          <p class="tool-desc">Application d'inventaire des actifs et d'amortissement. Suivez les équipements, les biens et l'inventaire pour la responsabilité du projet et le contrôle interne.</p>
+          <p class="tool-desc">Suit les équipements, les immobilisations et les amortissements afin d'assurer le contrôle interne et la responsabilité envers les bailleurs.</p>
         </article>
 
         <article class="tool-card">
           <div class="tool-header">
             <div class="tool-icon ic6">📋</div>
             <div>
-              <span class="tool-name">PAS</span>
-              <span class="tool-tag">Suivi des marchés</span>
+              <span class="tool-name">Suivi des achats et conformité des procédures</span>
+              <span class="tool-tag">Solution : PAS</span>
             </div>
           </div>
-          <p class="tool-desc">Suivi des marchés et conformité procédurale. Gardez les étapes d'approvisionnement, la documentation et les exigences procédurales visibles et traçables.</p>
+          <p class="tool-desc">Suit les appels d'offres, les achats et les exigences des bailleurs de fonds, en assurant un suivi des bailleurs rigoureux.</p>
         </article>
       </div>
     </div>
